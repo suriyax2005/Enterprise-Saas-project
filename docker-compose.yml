@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  postgres-db:
+    image: postgres:16-alpine
+    container_name: saas-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: saas_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Balaji@2005
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - saas-network
+    restart: always
+
+  saas-app:
+    build: .
+    container_name: saas-app
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres-db:5432/saas_db
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=Balaji@2005
+      - FILE_UPLOAD_DIR=/app/uploads
+    depends_on:
+      - postgres-db
+    volumes:
+      - uploads-data:/app/uploads
+    networks:
+      - saas-network
+    restart: on-failure
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: saas-prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    networks:
+      - saas-network
+    restart: always
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: saas-grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    networks:
+      - saas-network
+    restart: always
+
+volumes:
+  pgdata:
+  uploads-data:
+  grafana-storage:
+
+networks:
+  saas-network:
+    driver: bridge

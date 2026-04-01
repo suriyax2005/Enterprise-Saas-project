@@ -1,0 +1,60 @@
+2026-07-02 09:47:37.115 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 1
+2026-07-02 09:47:37.286 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 2
+2026-07-02 09:47:37.405 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 3
+2026-07-02 09:47:37.528 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 4
+2026-07-02 09:47:37.645 [main] ERROR SECURITY_LOGGER - SECURITY AUDIT: Account locked due to brute force limits: secure@test.com
+2026-07-02 09:47:37.775 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Blacklisted access token rejected: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzZWN1cmVAdGVzdC5jb20iLCJ0ZW5hbnRJZCI6MSwicm9sZSI6IlVTRVIiLCJpYXQiOjE3ODI5NjU4NTcsImV4cCI6MTc4Mjk2OTQ1N30.R7CT65l_x6slgoWzF8P31V0ShEB04iHFj2So2L--Ppk6XrbfVD5A2KmEC3AgEDeEPPPOO82XJWODpRRPSJOhOA
+2026-07-02 09:47:38.027 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 1
+2026-07-02 09:47:38.143 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 2
+2026-07-02 09:47:38.288 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 3
+2026-07-02 09:47:38.406 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 4
+2026-07-02 09:47:38.527 [main] ERROR SECURITY_LOGGER - SECURITY AUDIT: Account locked due to brute force limits: secure@test.com
+2026-07-02 09:47:38.532 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Login rate limit breached by IP: 127.0.0.1 on URI: /v1/api/auth/login
+2026-07-02 09:50:22.127 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 1
+2026-07-02 09:50:22.265 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 2
+2026-07-02 09:50:22.378 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 3
+2026-07-02 09:50:22.490 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 4
+2026-07-02 09:50:22.599 [main] ERROR SECURITY_LOGGER - SECURITY AUDIT: Account locked due to brute force limits: secure@test.com
+2026-07-02 09:50:22.922 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Blacklisted access token rejected: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzZWN1cmVAdGVzdC5jb20iLCJ0ZW5hbnRJZCI6MSwicm9sZSI6IlVTRVIiLCJpYXQiOjE3ODI5NjYwMjIsImV4cCI6MTc4Mjk2OTYyMn0.s_9S9lL_940tuuyc_1g8zbECB4KJ9rReCe5ksX1K1Gxp2QIF9TzeqbKdArlASOFWWmndZktyPMj4mp67UEadgQ
+2026-07-02 09:50:23.154 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 1
+2026-07-02 09:50:23.268 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 2
+2026-07-02 09:50:23.382 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 3
+2026-07-02 09:50:23.496 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 4
+2026-07-02 09:50:23.617 [main] ERROR SECURITY_LOGGER - SECURITY AUDIT: Account locked due to brute force limits: secure@test.com
+2026-07-02 09:50:23.622 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Login rate limit breached by IP: 127.0.0.1 on URI: /v1/api/auth/login
+2026-07-02 09:56:40.900 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 1
+2026-07-02 09:56:41.037 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 2
+2026-07-02 09:56:41.225 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 3
+2026-07-02 09:56:41.621 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 4
+2026-07-02 09:56:41.736 [main] ERROR SECURITY_LOGGER - SECURITY AUDIT: Account locked due to brute force limits: secure@test.com
+2026-07-02 09:56:43.233 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Blacklisted access token rejected: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzZWN1cmVAdGVzdC5jb20iLCJ0ZW5hbnRJZCI6MSwiaWF0IjoxNzgyOTY2NDAzLCJleHAiOjE3ODI5NzAwMDN9.fZB_SeZXm35WU4dNfxJVEm8yUxF-N3NKsZWmeEZWKKiIEVK7FOmMjrra4WX3hPO9wx5D9hDFVGEq3prXJK0TMw
+2026-07-02 09:56:43.592 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 1
+2026-07-02 09:56:43.873 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 2
+2026-07-02 09:56:44.028 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 3
+2026-07-02 09:56:44.176 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 4
+2026-07-02 09:56:44.337 [main] ERROR SECURITY_LOGGER - SECURITY AUDIT: Account locked due to brute force limits: secure@test.com
+2026-07-02 09:56:44.349 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Login rate limit breached by IP: 127.0.0.1 on URI: /v1/api/auth/login
+2026-07-02 11:42:32.079 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 1
+2026-07-02 11:42:32.252 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 2
+2026-07-02 11:42:32.383 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 3
+2026-07-02 11:42:32.512 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 4
+2026-07-02 11:42:32.636 [main] ERROR SECURITY_LOGGER - SECURITY AUDIT: Account locked due to brute force limits: secure@test.com
+2026-07-02 11:42:32.780 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Blacklisted access token rejected: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzZWN1cmVAdGVzdC5jb20iLCJ0ZW5hbnRJZCI6MSwiaWF0IjoxNzgyOTcyNzUyLCJleHAiOjE3ODI5NzYzNTJ9.e4JY1WddOC7pyNN_-IQt2T2JTgH-UdF__N08Wp7RTNTnPKiLYqylZGXdjw0aLI7IiMSG8vT7ydir_KCfRtZasg
+2026-07-02 11:42:33.028 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 1
+2026-07-02 11:42:33.153 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 2
+2026-07-02 11:42:33.280 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 3
+2026-07-02 11:42:33.412 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 4
+2026-07-02 11:42:33.545 [main] ERROR SECURITY_LOGGER - SECURITY AUDIT: Account locked due to brute force limits: secure@test.com
+2026-07-02 11:42:33.553 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Login rate limit breached by IP: 127.0.0.1 on URI: /v1/api/auth/login
+2026-07-02 12:58:52.317 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 1
+2026-07-02 12:58:52.465 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 2
+2026-07-02 12:58:52.584 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 3
+2026-07-02 12:58:52.709 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 4
+2026-07-02 12:58:52.833 [main] ERROR SECURITY_LOGGER - SECURITY AUDIT: Account locked due to brute force limits: secure@test.com
+2026-07-02 12:58:52.978 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Blacklisted access token rejected: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzZWN1cmVAdGVzdC5jb20iLCJ0ZW5hbnRJZCI6MSwiaWF0IjoxNzgyOTc3MzMyLCJleHAiOjE3ODI5ODA5MzJ9.G4nHNR0UwpwVCmvFtgQ0PrbGsQVZzLaxzVF7ZZDTBfB4JFwma0FOwLbBLAm2D9NWjIc1Jlo9XB7n2pxyhm5iPw
+2026-07-02 12:58:53.231 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 1
+2026-07-02 12:58:53.356 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 2
+2026-07-02 12:58:53.481 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 3
+2026-07-02 12:58:53.611 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Failed login attempt for email: secure@test.com. Attempts: 4
+2026-07-02 12:58:53.734 [main] ERROR SECURITY_LOGGER - SECURITY AUDIT: Account locked due to brute force limits: secure@test.com
+2026-07-02 12:58:53.739 [main] WARN  SECURITY_LOGGER - SECURITY AUDIT: Login rate limit breached by IP: 127.0.0.1 on URI: /v1/api/auth/login
